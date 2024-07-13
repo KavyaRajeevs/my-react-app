@@ -96,7 +96,9 @@ button:focus-visible {
 .kavya h1{
   position: relative;
   background: -webkit-linear-gradient(rgb(255, 42, 78),yellow);
-  -webkit-background-clip: text;
+  background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
 .nav{
